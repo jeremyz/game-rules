@@ -1,0 +1,94 @@
+Sturm :     d:5
+Scout :     d:4
+Rifleman :  d:3
+Mortar :    d:4 a:3
+MG :        d:4 a:2
+
+
+I   [1-13]
+    - Place 1 Sturm     x 2
+    - Place 2 Rifleman  x 3
+    - Place 2 Scout     x 3
+    - Place 1 Mortar    x 1
+    - Place 1 MG        x 1
+    - Pak 40            x 1 [1-2:Keep 3:GreatHall 4-6:SouthTerrace]
+    - Pak 40            x 1 [1-2:BesottenJenny 3-5:GateHouse 6:GreatHal]
+    - Flak 37           x 1 [1-2:Keep 3:GreatHall 4-6:NorthTerrace]
+
+II  [14-31]
+    - Place 1 Sturm     x 2
+    - Place 2 Rifleman  x 3
+    - Place 2 Scout     x 2
+    - Place 1 Mortar    x 2
+    - Place 1 MG        x 2
+    - Pak 40            x 1 [1-2:Keep 3:GreatHall 4-6:SouthTerrace]
+    - Flak 37           x 1 [1-2:Keep 3:GreatHall 4-6:NorthTerrace]
+    - Flak 30           x 1 [1-3:purple 4-6:red]
+    - Panzerfaust       x 2
+    - Suppressive Fire  x 1
+    - Sniper            x 1 [1-2:black 3:green 4:yellow 5:red 6:purple]
+
+III [32-49]
+    - Place 1 Sturm     x 2
+    - Place 3 Rifleman  x 1
+    - Place 1 Mortar    x 1
+    - Place 1 MG        x 1
+    - Pak 40            x 2 [1-2:Keep 3:GreatHall 4-6:SouthTerrace]
+    - Pak 40            x 2 [1-2:BesottenJenny 3-5:GateHouse 6:GreatHal]
+    - Flak 37           x 2 [1-2:Keep 3:GreatHall 4-6:NorthTerrace]
+    - Flak 30           x 2 [1-3:purple 4-6:red]
+    - Panzerfaust       x 2
+    - Suppressive Fire  x 1
+    - Sniper            x 1 [1-2:black 3:green 4:yellow 5:red 6:purple]
+    - Reinforcement     x 1
+
+IV [50-61]
+    - Place 1 Sturm     x 2
+    - Place 2 Sturm     x 2
+    - Place 2 Rifleman  x 2
+    - Place 3 Rifleman  x 2
+    - Suppressive Fire  x 2
+    - Place 1 Mortar    x 1
+    - Place 1 MG        x 1
+
+defender defense value is always location value, there is no defense value for Defenders
+
+
+Place Sturm, Scout, Rifleman
+    - N * RESOLVE
+    2d6 -> Entry point
+    - ASK SUPPRESS
+    before each Entry point resolution -> use suppress token -> nd6 >= defense -> destroyed
+    -> move SS tokens forward
+
+Place Mg and Mortar
+    - N * RESOLVE
+    2d6 -> Entry point
+    - ASK SUPPRESS
+    before each Entry point resolution -> use suppress token -> nd6 >= defense -> destroyed
+    chose a target within the same color -> 1d6 -> higher or lower to find target
+    if target is found -> nd6 (3/4) >= location defense > disrupt target
+
+Attack location : Pak 40 x 2, Flak 37, Panzerfaust
+    1d6 -> location (always BesottenJenny for the Panzerfaust)
+    - RESOLVE
+    nd6 -> at least 1d >= location defense -> reduce location defense
+    if defense already at minimum, each defender is disrupted
+    if Besotten Jenny reaches 0 -> destroyed -> defenders becom casualties -> no more usage -> no more attacks
+
+Flak 30
+    1d6 -> color -> each defender 2d6 >=  location defense -> disrupt
+
+Attack defender : Sniper:
+    - RESOLVE
+    1d6 -> color : no one -> no effect
+    1d6 -> cb first go up, then go down to find a target
+    4d6 attack -> at least 1d >= location defense -> casualty !
+
+Suppressive Fire
+    - RESOLVE -> automatic animate all of them
+    entry point 2 -> 12
+    1d6 -> higher -> lower to find target
+    MG 2d6 / mortar 3d6 >= location defense value -> disrupt
+
+    
