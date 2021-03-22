@@ -1,0 +1,14 @@
+New Rule "Fire&Movement":
+Every Unit may performe a combind "Fire & Move"-Action.
+The rule must be simple and mainstream. Here it is:
+1. The Action Cost is equal to the Attack Cost.
+2. The Fire Power in always lowers by -2.
+3. The Range and any Fire-Power-Bonus is determined from the
+starting Hex.
+Example 1: A russian SMG-Rifle is 2 Hex away. They perform a
+"Fire&Move"-Action to get closer. The Action Cost is 3,
+the red FP is lowers from 4 to 2.
+Example 2: If the same Units starts the "Fire&Move"-Action to get from
+a adjacent Hex in Close Combat, than count the Short Range
+Bonus, because this is the starting hex. And not the CC-Bonus.
+In this case the red FP is 4 - 2 + 3 = 5.
