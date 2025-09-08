@@ -1,0 +1,10 @@
+ 
+
+Change in Tactics
+Remove any 1 Capabilities marker
+that is in effect.
+
+‘That Capability no longer applies.
+
+ 
+
