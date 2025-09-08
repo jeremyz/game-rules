@@ -1,0 +1,59 @@
+Instructions:
+
+Set up. 
+
+Create the decks.
+
+Main Encounter Deck:
+	Foetid yellow ichor x2
+	Black tar residue x2
+	Overwhelming stench x2
+	Wild dogs x2
+	Feast of crows x3
+	Wail of the whipporwhils x2
+	Gobbling ooze x2
+	Acolyte x2
+	Creeping Ooze x2
+
+Wilbur Whately Encounter Deck:
+	Wither limb x1
+	Cause Blindness x2
+	Lame Animal x2
+	Narrow Escape x2
+
+Dunwich Horror Encounter Deck:
+	Freak Weather x2
+	Calm Night x4
+	It feeds! x2
+	Total Destruction x3
+	Terrorize the town x1
+	Retreat to the hills x2
+	Monstrous footprints x1
+	The stars are right x2
+	Trees knocked down x1
+
+Set aside enemies: special spawn rules
+	Wilbur Whately Concealed/True Form
+	Wizard Whately
+	The Dunwich Horror
+	Screeching Byakhee x2
+	Detached Tentacle x3
+
+Other Set Aside:
+	Wilbur's Chantings
+	Caught off Guard
+	Powder of Iban-ghazi
+	Banishing Tome (wilbur's diary)
+	Dr. Armitage
+	Dr. Morgan
+	Whately farm, Old Barn, Sentinel Hill, Cold Spring Glen
+	Rivertown, Science Building, Miskatonic University, Invisible
+
+Starting Locations
+	Osborn's General Store (Investigators start here)
+	Country Farm x2
+	Bishop's Brooke Bridge
+	
+
+
+
